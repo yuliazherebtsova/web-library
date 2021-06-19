@@ -1,0 +1,10 @@
+.contents__items {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+  min-width: 60px;
+  max-width: 80%;
+  }

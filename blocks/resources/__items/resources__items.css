@@ -1,0 +1,9 @@
+.resources__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+  min-width: 300px;
+  max-width: 80%;
+  }
