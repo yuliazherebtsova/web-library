@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Библиотека доп. материалов Яндекс.Практикума">
+  <meta name="description" content="Библиотека материалов по веб-разработке">
   <meta name="keywords" content="веб-разработка, полезные ресурсы, фронтенд, ссылки, курсы, html, css">
   <meta name="author" content="Yulia Zherebtsova">
   <!-- Про тег meta из Notion:
     https://www.notion.so/meta-76ac99197ed34de5b10a78f8d46a7a40 -->
-  <meta property="og:title" content="Библиотека доп. материалов Яндекс.Практикума">
-  <meta property="og:description" content="Посетите библиотеку с доп. материалами Яндекс.Практикума">
+  <meta property='og:type' content="article" />
+  <meta property="og:title" content="Библиотека материалов по веб-разработке">
+  <meta property="og:description" content="Посетите библиотеку с полезными материалами по веб-разработке">
   <meta property="og:image" content="https://yuliazherebtsova.github.io/web-library/images/frontend.png">
   <meta property="og:url" content="https://yuliazherebtsova.github.io/web-library/">
   <link rel="stylesheet" href="./pages/index.css">
@@ -30,14 +31,14 @@
 </li>
  -->
   <header class="header page__header">
-    <a class="logo logo_place_header"></a>
     <h1 class="header__title">Библиотека веб&#8209;разработки</h1>
     <p class="header__subtitle">Дополнительные материалы с курса Яндекс.Практикума "Веб&#8209;разработчик&nbsp;Плюс"
-      (2-й поток)<a href="#content" class="link header__link"> Читать &rarr;</a>
+      и другие полезные ссылки<a href="#content" class="link header__link"> Читать &rarr;</a>
     <p>
     <div class="header__main-illustration"></div>
   </header>
   <main id="content" class="content">
+    <!-- Содержание -->
     <nav class="contents page__section">
       <ul class="list list_styled contents__items">
         <li class="contents__item">
@@ -112,9 +113,13 @@
           <a href="https://www.fontsquirrel.com/tools/webfont-generator" class="link " target="_blank">Сервис
             конвертации шрифтов в woff</a>
         </li>
+        <li class="resources__item">Как работать
+          <a href="https://netpeak.net/ru/blog/kak-rabotat-s-open-graph/" class="link " target="_blank">
+            с Open Graph?</a>
+        </li>
       </ul>
-        <p class="section-subtitle resources__subtitle">VS Code</p>
-        <ul class="list list_styled resources__items">
+      <p class="section-subtitle resources__subtitle">VS Code</p>
+      <ul class="list list_styled resources__items">
         <li class="resources__item">Подробный гайд VS Code
           <a href="https://www.youtube.com/watch?v=nxCLXMBl4e4" class="link " target="_blank">за час</a>
         </li>
@@ -729,10 +734,7 @@
   </main>
   <footer class="footer page__footer">
     <div class="footer__columns">
-      <div class="footer__column footer__column_content_copyright">
-        <a class="logo logo_place_footer"></a>
-        <p class="footer__author">&copy; 2021, Yulia Zherebtsova</p>
-      </div>
+
       <nav class="footer__column footer__column_content_info">
         <h3 class="footer__column-heading">Содержание</h3>
         <ul class="list">
@@ -745,6 +747,9 @@
           <li class="footer__column-links"><a href="#projects" class="link footer__column-link">Проекты</a></li>
         </ul>
       </nav>
+      <div class="footer__column footer__column_content_copyright">
+        <p class="footer__author">&copy; 2021, Yulia Zherebtsova</p>
+      </div>
     </div>
   </footer>
 </body>

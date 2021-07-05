@@ -1,8 +1,7 @@
 .header {
   position: relative;
   height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
+  min-height: 500px;
   display: flex;
   flex-flow: row;
   align-items: center;
