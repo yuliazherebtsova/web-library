@@ -1,12 +1,2 @@
 .header__main-illustration {
-  position: absolute;
-  bottom: 30px;
-  right: 0;
-  z-index: 1;
-  width: 720px;
-  height: 600px;
-  background-image: url('../../../images/frontend.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }

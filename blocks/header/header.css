@@ -1,10 +1,13 @@
 .header {
   position: relative;
-  height: 100vh;
-  min-height: 500px;
+  min-height: 100vh;
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
+  justify-content: center;
   align-items: center;
-  background-color: #f2f2f2;
   overflow: hidden;
+  background-image: url('../../../images/header.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
